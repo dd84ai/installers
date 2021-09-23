@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    pollSCM('* * * * *'}
+    pollSCM('* * * * *')
     stages {
         stage('build') {
             steps {
